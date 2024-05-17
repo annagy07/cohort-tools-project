@@ -42,6 +42,7 @@ app.use("/", cohortRouter);
 
 const studentRouter = require("./routes/student.routes");
 app.use("/", studentRouter);
+
 const userRouter = require("./routes/user.routes");
 app.use("/", userRouter);
 
